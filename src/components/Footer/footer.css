@@ -1,0 +1,45 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .footer-left {
+    font-size: 0.8rem; /* Tamaño más pequeño para el nombre */
+  }
+  
+  .footer-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .footer-right a {
+    color: #fff;
+    transition: color 0.3s;
+  }
+  
+  .footer-right a:hover {
+    color: #00eeff;
+  }
+  
+  .back-to-top {
+    background-color: #8b2299;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .back-to-top:hover {
+    background-color: #ff00dd;
+  }
+  
+  

@@ -1,0 +1,26 @@
+.custom-navbar {
+  background-color: rgba(0, 0, 0, 0.7) !important; /* Fondo semi-transparente */
+  padding: 10px 20px;
+}
+
+.navbar-brand img {
+  animation: rotate 5s infinite;
+}
+
+.nav-link {
+  color: white !important;
+  font-size: 1.2rem;
+  margin: 0 10px;
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  text-shadow: 1px 1px 2px black; /* Sombra al texto */
+}
+
+.nav-link:hover {
+  color: #00eeff !important;
+  transform: scale(1.1);
+}
+
+@keyframes rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

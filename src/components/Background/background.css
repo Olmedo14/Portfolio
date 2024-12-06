@@ -1,0 +1,9 @@
+.background {
+    position: fixed; /* Asegura que el fondo cubra toda la pantalla */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Asegura que el fondo esté detrás de otros elementos */
+  }
+  
