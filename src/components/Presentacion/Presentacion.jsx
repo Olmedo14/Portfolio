@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import './presentacion.css';
-import logo from '../../assets/logo.png';
+import logo from '../../../public/logo.png';
 
 const Presentacion = ({ onButtonClick }) => {
   return (
