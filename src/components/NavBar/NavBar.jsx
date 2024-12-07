@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import './navbar.css';
 import { FaGithub, FaLinkedin } from 'react-icons/fa'; // Importar íconos
-import logo from '../../../public/logo.png';
+import logo from '/logo.png';
 
 const CustomNavbar = () => {
   const [showNavbar, setShowNavbar] = useState(false);

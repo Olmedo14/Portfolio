@@ -1,6 +1,6 @@
 import React from 'react';
 import './aboutme.css';
-import ProfilePic from "../../../public/profile-pic.jpeg";
+import ProfilePic from "/profile-pic.jpeg";
 import CV from "../../assets/cv.pdf"; // Importar tu CV
 
 const AboutMe = () => {
